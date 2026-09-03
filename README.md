@@ -13,12 +13,14 @@ Choose the package compatible with your operating system:
 
 ---
 
-## Technical Overview 
+---
 
-here is how the application is built under the hood:
+## Technical Overview
 
-* **GUI Framework (`customtkinter` & `tkinter`)**: Built on `customtkinter` (a modern wrapper around Tkinter) for native, auto-adjusting dark/light mode UI components. Thread-safe Tkinter updates are handled using `.after()` callbacks to prevent GUI freezing.
-* **Core Downloader (`yt-dlp`)**: Utilizes `yt-dlp` programmatically via its Python API (`YoutubeDL`). Video/audio streams are fetched and processed asynchronously using Python's `threading` module to keep the UI fully responsive during downloads.
-* **Media Processing (Embedded FFmpeg)**: Audio conversion (`FFmpegExtractAudio` post-processor for `.mp3`) and video/audio merging (`bestvideo+bestaudio`) are executed by routing `yt-dlp`'s `ffmpeg_location` option dynamically to bundled `ffmpeg` and `ffprobe` binaries.
-* **Dynamic Asset Resolution (`sys._MEIPASS`)**: Features a custom path resolver (`get_resource_path()`) that dynamically toggles between standard relative local paths during development and the temporary extracted PyInstaller directory (`_MEIPASS`) in runtime bundles.
-* **Single-File Packaging (`PyInstaller`)**: Standalone, portable binaries are generated using PyInstaller, bundling the Python runtime, all UI resources, and cross-platform native FFmpeg binaries via `--add-data` and `--add-binary` flags.
+For developers interested in the technology behind the app:
+
+* **Language**: Built entirely with **Python**.
+* **User Interface**: Designed using **CustomTkinter** for a modern, responsive desktop interface with automatic dark/light mode support.
+* **Core Engine**: Powered by **yt-dlp** for fast and reliable YouTube video/audio stream processing.
+* **Media Handling**: Leverages **FFmpeg** for high-quality MP3 extraction and MP4 merging.
+* **Deployment**: Packaged into standalone, single-file executables for simple distribution across supported operating systems.
