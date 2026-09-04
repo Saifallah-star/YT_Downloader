@@ -9,7 +9,7 @@ Choose the package compatible with your operating system:
 | Platform | File Name | Download Link | Instructions |
 | :--- | :--- | :--- | :--- |
 | **Windows** | `YT_Downloader_Windows.zip` | [Download for Windows](https://drive.google.com/file/d/1hKSbsAI_FcymwP4I3wR8N3zwgDf7148L/view?usp=sharing) | Extract `.zip` and run `YT_Downloader.exe`. *(If SmartScreen appears, click "More info" → "Run anyway")* |
-| **Linux** | `YT_Downloader_Linux.zip` | [Download for Linux](https://drive.google.com/file/d/1Gc3v0TrAkRwZ-wEl0ycxUqISXJSclSTY/view?usp=sharing) | Extract `.zip` and launch the application executable. |
+| **Linux** | `YT_Downloader_Linux.zip` | [Download for Linux](https://drive.google.com/file/d/1o70jEtqtJxVhPeW7ZvWxvK-xeEz5PFPT/view?usp=sharing) | Extract `.zip` and launch the application executable. |
 
 ---
 
