@@ -13,7 +13,7 @@ Choose the package compatible with your operating system:
 
 ---
 ## 🐧 Linux Setup Guide
-#### Step 1: Remove the Old Version ( if you have )
+### >> Step 1: Remove the Old Version ( if you have )
 Run these commands in your terminal to delete cached shortcut entries, leftover icon assets, and previous installation directories:
 
     # 1. Remove old desktop shortcuts
@@ -31,12 +31,12 @@ Run these commands in your terminal to delete cached shortcut entries, leftover 
     # 4. Refresh your Linux application launcher cache
     update-desktop-database ~/.local/share/applications
 
-#### Step 2: Install the New Version
+### >> Step 2: Install the New Version
 Download YT_Downloader_Linux.zip and extract it to your preferred location
 
 ---
 ## 🪟 Windows Setup Guide
-#### Step 1: Remove the Old Version ( if you have )
+### >> Step 1: Remove the Old Version ( if you have )
 
 Close YT_Downloader if it is currently running.
 
@@ -48,7 +48,7 @@ If you pinned the old executable or created a shortcut:
   
   Right-click the old Taskbar icon and select Unpin from taskbar.
 
-#### Step 2: Install the New Version
+### >> Step 2: Install the New Version
 
 Download YT_Downloader_Windows.zip and extract the .zip archive.
 
