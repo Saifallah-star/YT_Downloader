@@ -13,7 +13,7 @@ Choose the package compatible with your operating system:
 
 ---
 ## 🐧 Linux Setup Guide
-#### Step 1: Remove the Old Version
+#### Step 1: Remove the Old Version ( if you have )
 Run these commands in your terminal to delete cached shortcut entries, leftover icon assets, and previous installation directories:
 
     # 1. Remove old desktop shortcuts
@@ -36,7 +36,7 @@ Download YT_Downloader_Linux.zip and extract it to your preferred location
 
 ---
 ## 🪟 Windows Setup Guide
-#### Step 1: Remove the Old Version
+#### Step 1: Remove the Old Version ( if you have )
 
 Close YT_Downloader if it is currently running.
 
